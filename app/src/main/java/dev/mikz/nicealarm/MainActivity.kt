@@ -75,7 +75,11 @@ fun AlarmContainer(modifier: Modifier = Modifier) {
                 DateButton("F")
                 DateButton("S")
             }
-            Text(text = "Chill Wakeup")
+            Text(
+                text = "Chill Wakeup",
+                fontWeight = FontWeight.Bold,
+                modifier = modifier.padding(top = 30.dp)
+            )
         }
     }
 }
